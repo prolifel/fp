@@ -568,8 +568,8 @@
       arrayList.innerHTML = '';
 
       todosArr.forEach((item, index) => {
-        const listItem = `<div class="col-lg-6 my-3" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="card shadow todo-notes" data-index="${index}">
+        const listItem = `<div class="col-lg-6 my-3 todo-notes" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="card shadow" data-index="${index}">
                                 <div class="card-body justify-content-center text-center">
                                     <h4 class="my-3">${item}</h4>
                                 </div>
