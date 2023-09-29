@@ -677,7 +677,7 @@
 
     let formFilled = true;
     $('#form-order-now input').each(function () {
-      if ($(this).val() === '') {
+      if ($(this).val() == '') {
         formFilled = false;
         return false; // exit the loop early if any input is empty
       }
