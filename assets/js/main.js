@@ -561,7 +561,7 @@
     function displayArray() {
       // remove 3 char notes or below
       todosArr = todosArr.filter((todo) => {
-        return todo.length > 3
+        return todo.length > 3 ? true : false
       })
 
       const arrayList = document.getElementById('todo-list');
